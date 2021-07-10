@@ -56,6 +56,15 @@
 .timeline-card-success:after {
   background-color: #37BC9B; }
 
+.timeline-card-cert {
+  border-left-color: #e00c8f; }
+
+.timeline-card-cert:before {
+  border-color: #e00c8f; }
+
+.timeline-card-cert:after {
+  background-color: #e00c8f; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -133,6 +142,7 @@ footer a:not(.nav-link) {
   .skills-section,
   .work-experience-section,
   .education-section,
+  .certificate-section,
   .contant-section {
     padding: 1.5rem 5rem 2rem !important; }
   .page-break {
